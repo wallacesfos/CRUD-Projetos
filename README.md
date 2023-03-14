@@ -25,6 +25,19 @@ assim irá instalar as dependencias e iniciar o projeto.
       }
     ]
     ```
+**/projects?actived=[true|false] /**
+  - GET
+
+    Lista todos os projetos ativos ou não ativos, sendo true os ativos e false os não ativos
+
+    ```json
+    [
+      {
+        "id": 1,
+        "name": "crud-project"
+      }
+    ]
+    ```
 
 
 **/projects/:id /**
@@ -81,7 +94,7 @@ assim irá instalar as dependencias e iniciar o projeto.
     Delete um projeto.
 
     RETORNO:
-    
+
     ```json
     {
       "raw": [],

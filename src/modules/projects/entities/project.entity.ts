@@ -7,4 +7,7 @@ export class Project {
 
   @Column({ length: 500 })
   name: string;
+
+  @Column({ default: true })
+  actived: boolean;
 }
