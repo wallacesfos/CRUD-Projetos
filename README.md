@@ -68,7 +68,7 @@ assim irá instalar as dependencias e iniciar o projeto.
     Atualiza o nome de um projeto
 
    REQUEST:
-   
+
     ```json
     {
 	    "name": "juju"
@@ -81,6 +81,7 @@ assim irá instalar as dependencias e iniciar o projeto.
     Delete um projeto.
 
     RETORNO:
+    
     ```json
     {
       "raw": [],
